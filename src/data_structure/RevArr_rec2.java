@@ -29,7 +29,7 @@ Last index of the array = n - 1
 So, if you are at index i from the left, the corresponding index from the right is:
    right index=(n−1)−i=n−i−1.....
 
-   we need the mirror element of i, which changes as i increases — that’s why we use n - i - 1
+we need the mirror element of i, which changes as i increases — that’s why we use n - i - 1
 
 
    So, n-i-1 is used because it calculates the index from the right end that corresponds to index i from the left.
