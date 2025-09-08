@@ -1,6 +1,23 @@
 package data_structure;
 
 
+/*  for:- int[] arr = {1, 2, 1};
+ i = 0 → arr[0] = 1
+hash[arr[0]] = hash[1] + 1
+hash[1] = 0 + 1 = 1
+→ hash = [0,1,0,0,0,0,0,0,0,0]
+
+i = 1 → arr[1] = 2
+hash[2] = hash[2] + 1
+hash[2] = 0 + 1 = 1
+→ hash = [0,1,1,0,0,0,0,0,0,0]
+
+i = 2 → arr[2] = 1
+hash[1] = hash[1] + 1
+hash[1] = 1 + 1 = 2
+→ hash = [0,2,1,0,0,0,0,0,0,0]*/
+
+
 import java.util.Scanner;
 
 public class Hash_1
