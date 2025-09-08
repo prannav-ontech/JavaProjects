@@ -17,5 +17,6 @@ public class Multi_recCall {
             int slast=fibo(n-2);
             return last+slast;
         }
+        // we could only use : return fibo(n-1) + fibo (n-2) here ...
     }
 }
