@@ -85,3 +85,34 @@ public class TodoApp {
         }
     }
 }
+
+
+
+
+
+
+/*
+# 📝 Java To-Do List Application
+
+A simple **Java-based To-Do List** application built using Object-Oriented Programming (OOP) principles.  
+This project allows users to **add, list, and remove tasks** through a command-line interface.
+
+---
+
+## 🚀 Features
+✅ Add new tasks  
+✅ View all tasks  
+✅ Remove tasks by index  
+✅ Simple, lightweight, and beginner-friendly code  
+
+---
+
+## 🛠️ Technologies Used
+- **Java** (Core Java, OOP)
+- **ArrayList** for dynamic task storage
+- **Scanner** for user input
+
+---
+
+## 📂 Project Structure
+    */
