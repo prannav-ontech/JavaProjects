@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class StuChal_File
 {
-    public static void main(String aargs[]) throws FileNotFoundException {
+    public static void main(String args[]) throws Exception {
         String filePath = "/Users/prannavlomash/Desktop/My mac/Source1.txt";
 
 
@@ -38,7 +38,7 @@ try{
 
     FileInputStream s1= new FileInputStream(filePath);
 
-    byte b [] = new byte[s1.available()];
+    //byte b [] = new byte[s1.available()];
 
     int n;
     System.out.println("File created at: " + filePath2);
