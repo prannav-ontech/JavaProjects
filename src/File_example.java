@@ -15,7 +15,14 @@ public class File_example
             FileOutputStream fos = new FileOutputStream(filePath);
             String data = "Hello from Java on macOS!";
             fos.write(data.getBytes());
+
+
+            String d2 = "Hello from Java on Windows!";
+            fos.write(d2.getBytes());
+
             System.out.println("File created at: " + filePath);
+
+
             fos.close();
         }
 
