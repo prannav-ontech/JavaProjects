@@ -35,7 +35,6 @@ try{
 
   String  filePath2 = "/Users/prannavlomash/Desktop/My mac/Source2.txt";
     FileOutputStream s2= new FileOutputStream(filePath2);
-
     FileInputStream s1= new FileInputStream(filePath);
 
     //byte b [] = new byte[s1.available()];
@@ -58,17 +57,5 @@ catch (FileNotFoundException e) {
 } catch (IOException e) {
     System.out.println("Error");
 }
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
